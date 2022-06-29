@@ -30,7 +30,7 @@
   </table>
 </details>
 <details>
-  <summary>17600번대</summary>
+  <summary></summary>
   <table>
     <tr>
       <td>
