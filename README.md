@@ -2,7 +2,7 @@
 백준 문제풀이 with Java
 
 <details>
-  <summary>17500</summary>
+  <summary>17500~</summary>
   <table>
     <tr>
       <td>
