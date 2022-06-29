@@ -1,4 +1,4 @@
-package problems.from.number17500;
+package pproblems.ffrom.nnnumber17500;
 
 import java.io.BufferedReader;
 import java.io.IOException;
