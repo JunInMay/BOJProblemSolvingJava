@@ -30,7 +30,7 @@
   </table>
 </details>
 <details>
-  <summary></summary>
+  <summary>Templates</summary>
   <table>
     <tr>
       <td>
