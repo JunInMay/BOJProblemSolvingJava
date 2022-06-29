@@ -2,7 +2,7 @@
 백준 문제풀이 with Java
 
 <details>
-  <summary>17500~</summary>
+  <summary>17500번대</summary>
   <table>
     <tr>
       <td>
@@ -30,7 +30,7 @@
   </table>
 </details>
 <details>
-  <summary>17600~</summary>
+  <summary>17600번대</summary>
   <table>
     <tr>
       <td>
