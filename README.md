@@ -40,7 +40,7 @@
         <a href="https://www.acmicpc.net/problem/19844">문제 링크</a>
       </td>
       <td>
-        <a href="">풀이</a>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number19800/Baekjoon_19844.java">풀이</a>
       </td>
     </tr>
   </table>
