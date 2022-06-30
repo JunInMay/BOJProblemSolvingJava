@@ -30,6 +30,22 @@
   </table>
 </details>
 <details>
+  <summary>19800번대</summary>
+  <table>
+    <tr>
+      <td>
+        19844 단어 개수 세기
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/19844">문제 링크</a>
+      </td>
+      <td>
+        <a href="">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>Templates</summary>
   <table>
     <tr>
@@ -40,5 +56,5 @@
       <td>
       </td>
     </tr>
+  </table>
 </details>
-  
