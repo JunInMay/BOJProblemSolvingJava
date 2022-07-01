@@ -1,6 +1,21 @@
 # BOJ Problem Solving with Java
 백준 문제풀이 with Java
-
+<details>
+  <summary>6500번대</summary>
+  <table>
+    <tr>
+      <td>
+        6571 피보나치 수의 개수
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/6571">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number06500/Baekjoon_6571.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
 <details>
   <summary>17500번대</summary>
   <table>
@@ -50,10 +65,13 @@
   <table>
     <tr>
       <td>
+        0000 문제 이름
       </td>
       <td>
+        <a href="https://www.acmicpc.net/problem/0000">문제 링크</a>
       </td>
       <td>
+        <a href="">풀이</a>
       </td>
     </tr>
   </table>
