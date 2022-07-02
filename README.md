@@ -1,6 +1,22 @@
 # BOJ Problem Solving with Java
 백준 문제풀이 with Java
 <details>
+  <summary>2900번대</summary>
+  <table>
+    <tr>
+      <td>
+        2992 크면서 작은 수
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/2992">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number02900/Baekjoon_2992.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>6500번대</summary>
   <table>
     <tr>
