@@ -43,7 +43,7 @@
         <a href="https://www.acmicpc.net/problem/12155">문제 링크</a>
       </td>
       <td>
-        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/97b16993e65b0ff59a228d6f08c1f317e7f28834/src/problems/from/number17500/Baekjoon_12155.java">풀이</a>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/97b16993e65b0ff59a228d6f08c1f317e7f28834/src/problems/from/number12100/Baekjoon_12155.java">풀이</a>
       </td>
     <br>
     </tr>
