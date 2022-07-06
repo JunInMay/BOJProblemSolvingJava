@@ -50,6 +50,22 @@
   </table>
 </details>
 <details>
+  <summary>9700번대</summary>
+  <table>
+    <tr>
+      <td>
+        9715 면적 구하기
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/9715">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number09700/Baekjoon_9715.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>12100번대</summary>
   <table>
     <tr>
