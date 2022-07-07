@@ -66,6 +66,23 @@
   </table>
 </details>
 <details>
+  <summary>12000번대</summary>
+  <table>
+    <tr>
+      <td>
+        12038 Polynesiaglot (Small2)
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/12038">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number12000/Baekjoon_12038.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>12100번대</summary>
   <table>
     <tr>
