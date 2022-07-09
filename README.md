@@ -144,6 +144,22 @@
   </table>
 </details>
 <details>
+  <summary>21800번대</summary>
+  <table>
+    <tr>
+      <td>
+        21821 Acowdemia II
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/21821">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number21800/Baekjoon_21821.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>Templates</summary>
   <table>
     <tr>
