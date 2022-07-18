@@ -1,6 +1,22 @@
 # BOJ Problem Solving with Java
 백준 문제풀이 with Java
 <details>
+  <summary>2800번대</summary>
+  <table>
+    <tr>
+      <td>
+        2885 초콜릿 식사
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/2885">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number02800/Baekjoon_2885.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>2900번대</summary>
   <table>
     <tr>
@@ -50,6 +66,22 @@
   </table>
 </details>
 <details>
+  <summary>9500번대</summary>
+  <table>
+    <tr>
+      <td>
+        9519 졸려
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/9519">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number09500/Baekjoon_9519.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>9700번대</summary>
   <table>
     <tr>
@@ -94,6 +126,23 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number12100/Baekjoon_12155.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>15900번대</summary>
+  <table>
+    <tr>
+      <td>
+        15903 카드 합체 놀이
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/15903">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number15900/Baekjoon_15903.java">풀이</a>
       </td>
     <br>
     </tr>
@@ -155,6 +204,22 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number21800/Baekjoon_21821.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>25200번대</summary>
+  <table>
+    <tr>
+      <td>
+        25212 조각 케이크
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/25212">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number25200/Baekjoon_25212.java">풀이</a>
       </td>
     </tr>
   </table>
