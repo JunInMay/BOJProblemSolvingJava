@@ -1,6 +1,22 @@
 # BOJ Problem Solving with Java
 백준 문제풀이 with Java
 <details>
+  <summary>2600번대</summary>
+  <table>
+    <tr>
+      <td>
+        2668 숫자고르기
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/2668">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number02600/Baekjoon_2668.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>2800번대</summary>
   <table>
     <tr>
