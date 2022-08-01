@@ -1,6 +1,22 @@
 # BOJ Problem Solving with Java
 백준 문제풀이 with Java
 <details>
+  <summary>2600번대</summary>
+  <table>
+    <tr>
+      <td>
+        2668 숫자고르기
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/2668">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number02600/Baekjoon_2668.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>2800번대</summary>
   <table>
     <tr>
@@ -149,6 +165,22 @@
   </table>
 </details>
 <details>
+  <summary>17000번대</summary>
+  <table>
+    <tr>
+      <td>
+        17074 정렬
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/17074">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number17000/Baekjoon_17074.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>17500번대</summary>
   <table>
     <tr>
@@ -225,7 +257,7 @@
   </table>
 </details>
 <details>
-  <summary>Templates</summary>
+  <summary>00000번대</summary>
   <table>
     <tr>
       <td>
@@ -235,7 +267,7 @@
         <a href="https://www.acmicpc.net/problem/0000">문제 링크</a>
       </td>
       <td>
-        <a href="">풀이</a>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number00000/Baekjoon_0000.java">풀이</a>
       </td>
     </tr>
   </table>
