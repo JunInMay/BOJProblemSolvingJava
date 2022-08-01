@@ -213,6 +213,17 @@
   <table>
     <tr>
       <td>
+        19805 Attractive Flowers
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/19805">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number19800/Baekjoon_19805.java">풀이</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         19844 단어 개수 세기
       </td>
       <td>
