@@ -82,6 +82,22 @@
   </table>
 </details>
 <details>
+  <summary>7700번대</summary>
+  <table>
+    <tr>
+      <td>
+        7795 먹을 것인가 먹힐 것인가
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/7795">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number07700/Baekjoon_7795.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>9500번대</summary>
   <table>
     <tr>
