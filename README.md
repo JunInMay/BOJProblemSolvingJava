@@ -164,6 +164,23 @@
   </table>
 </details>
 <details>
+  <summary>15700번대</summary>
+  <table>
+    <tr>
+      <td>
+        15720 카우버거
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/15720">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number15700/Baekjoon_15720.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>15900번대</summary>
   <table>
     <tr>
