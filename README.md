@@ -24,7 +24,9 @@
         2668 숫자고르기
       </td>
       <td>
-        <a href="https://www.acmicpc.net/problem/2668">문제 링크</a>
+        <a href="
+        https://www.acmicpc.net/problem/2668
+        ">문제 링크</a>
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number02600/Baekjoon_2668.java">풀이</a>
@@ -253,6 +255,25 @@
       </td>
       <td>
   <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/82eabf3f777d901d981cd52ffb3ae0572591b127/src/problems/from/number17500/Baekjoon_17554.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>19500번대</summary>
+  <table>
+    <tr>
+      <td>
+        19583 싸이버개강총회
+      </td>
+      <td>
+        <a href="
+        https://www.acmicpc.net/problem/19583
+        ">
+        문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number19500/Baekjoon19583.java">풀이</a>
       </td>
     </tr>
   </table>
