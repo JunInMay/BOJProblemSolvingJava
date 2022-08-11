@@ -1,19 +1,17 @@
 # BOJ Problem Solving with Java
 백준 문제풀이 with Java
 <details>
-  <summary>2500번대</summary>
+  <summary>1000번대</summary>
   <table>
     <tr>
       <td>
-        2599 짝 정하기
+        1049 기타줄
       </td>
       <td>
-        <a href="
-        https://www.acmicpc.net/problem/2599
-        ">문제 링크</a>
+        <a href="https://www.acmicpc.net/problem/1049">문제 링크</a>
       </td>
       <td>
-        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number02500/Baekjoon2599.java">풀이</a>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number01000/Baekjoon1049.java">풀이</a>
       </td>
     </tr>
   </table>
