@@ -350,6 +350,22 @@
   </table>
 </details>
 <details>
+  <summary>24900번대</summary>
+  <table>
+    <tr>
+      <td>
+        24912 카드 색칠
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/24912">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number24900/Baekjoon24912.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>25200번대</summary>
   <table>
     <tr>
