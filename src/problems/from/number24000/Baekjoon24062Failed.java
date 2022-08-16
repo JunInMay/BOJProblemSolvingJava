@@ -56,7 +56,8 @@ public class Baekjoon24062Failed {
 		int leftIdx = leftStartIdx;
 		int rightIdx = midIdx;
 		int tempIdx = leftStartIdx;
-		Integer[] temp = Arrays.copyOf(array, arraySize);
+		Integer[] temp = array.clone();
+		
 		
 		while (leftIdx < midIdx && rightIdx < rightEndIdx) {
 			if (array[leftIdx] <= array[rightIdx]) {
@@ -86,7 +87,21 @@ public class Baekjoon24062Failed {
 			checkedArrays.put(Arrays.toString(temp), true);
 		}
 		
-		array = Arrays.copyOf(temp, arraySize);
+		array = temp;
 	}
 
 }
+
+/*
+5
+1 1 1 1 1
+1 1 1 1 0
+
+5
+4 5 1 3 2
+4 5 1 3 2
+
+
+
+
+*/
