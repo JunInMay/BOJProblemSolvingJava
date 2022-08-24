@@ -114,6 +114,22 @@
   </table>
 </details>
 <details>
+  <summary>6700번대</summary>
+  <table>
+    <tr>
+      <td>
+        6752 Time on task
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/6752">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number06700/Baekjoon6752.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>7700번대</summary>
   <table>
     <tr>
