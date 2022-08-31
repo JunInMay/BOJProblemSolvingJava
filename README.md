@@ -366,6 +366,22 @@
   </table>
 </details>
 <details>
+  <summary>23700번대</summary>
+  <table>
+    <tr>
+      <td>
+        23731 Physics Experiment
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/23731">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number23700/Baekjoon23731.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>24900번대</summary>
   <table>
     <tr>

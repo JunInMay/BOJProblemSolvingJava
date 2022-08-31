@@ -64,12 +64,11 @@ public class Baekjoon6752 {
 			chores[i] = toInt(br.readLine());
 		}
 		chores = mergeSort(chores);
-		System.out.println(Arrays.toString(chores));
 		
 		int result = 0;
 		for (int i=0; i<chores.length; i++) {
 			remaining -= chores[i];
-			if (remaining <= 0) break;
+			if (remaining < 0) break;
 			result++;
 		}
 		
