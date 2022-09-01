@@ -17,7 +17,6 @@ public class Baekjoon4283 {
 	static int binarySearch(int left, int right, ArrayList<Double> list, Double value) {
 		int mid = (left + right) / 2;
 		
-		
 		if (list.get(mid) <= value && value < list.get(mid+1)) {
 			return mid;
 		}
@@ -33,15 +32,15 @@ public class Baekjoon4283 {
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(isr);
 		
-		ArrayList<Double> fiboList = new ArrayList<>();
-		fiboList.add(getLog(0d));
-		fiboList.add(getLog(1d));
-		Double elem = fiboList.get(1);
+		ArrayList<Double> factorialList = new ArrayList<>();
+		factorialList.add(getLog(0d));
+		factorialList.add(getLog(1d));
+		Double elem = factorialList.get(1);
 		int idx = 2;
 		
 		while (elem < Math.pow(2, 22.1)) {
-			elem = fiboList.get(idx-1) + getLog((double) idx);
-			fiboList.add(elem);
+			elem = factorialList.get(idx-1) + getLog((double) idx);
+			factorialList.add(elem);
 			idx += 1;
 		}
 		
@@ -55,9 +54,7 @@ public class Baekjoon4283 {
 			int generation = toInt(inputText)/10 - 194;
 			int searchValue = (int) Math.pow(2, generation);
 			
-			System.out.println(binarySearch(0, fiboList.size()-1, fiboList, (double)searchValue));
-			
-			
+			System.out.println(binarySearch(0, factorialList.size()-1, factorialList, (double)searchValue));
 		}
 	}
 
