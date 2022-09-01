@@ -17,6 +17,22 @@
   </table>
 </details>
 <details>
+  <summary>1500번대</summary>
+  <table>
+    <tr>
+      <td>
+        1543 문서 검색
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/1543">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number01500/Baekjoon1543.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>2500번대</summary>
   <table>
     <tr>
