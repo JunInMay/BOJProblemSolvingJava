@@ -97,6 +97,23 @@
   </table>
 </details>
 <details>
+  <summary>4200번대</summary>
+  <table>
+    <tr>
+      <td>
+        4283 Factstone Benchmark
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/4283">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number04200/Baekjoon4283.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>4600번대</summary>
   <table>
     <tr>
