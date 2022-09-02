@@ -21,6 +21,17 @@
   <table>
     <tr>
       <td>
+        1515 수 이어 쓰기
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/1515">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number01500/Baekjoon1515.java">풀이</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         1543 문서 검색
       </td>
       <td>
