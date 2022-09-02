@@ -14,7 +14,6 @@ public class Baekjoon1515 {
 		int idx = 0;
 		int number = 1;
 		int limit = 400000;
-		String.valueOf(10).toCharArray();
 		
 		while (number < limit) {
 			char[] numberArray = String.valueOf(number).toCharArray();
