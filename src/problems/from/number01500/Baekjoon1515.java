@@ -13,8 +13,7 @@ public class Baekjoon1515 {
 		char[] inputText = br.readLine().toCharArray();
 		int idx = 0;
 		int number = 1;
-		int limit = 400000;
-		String.valueOf(10).toCharArray();
+		int limit = 40000;
 		
 		while (number < limit) {
 			char[] numberArray = String.valueOf(number).toCharArray();
