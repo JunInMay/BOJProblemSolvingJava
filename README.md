@@ -142,6 +142,23 @@
   </table>
 </details>
 <details>
+  <summary>5800번대</summary>
+  <table>
+    <tr>
+      <td>
+        5839 Cow Race
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/5839">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number05800/Baekjoon5839.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>6500번대</summary>
   <table>
     <tr>
