@@ -207,6 +207,22 @@
   </table>
 </details>
 <details>
+  <summary>8600번대</summary>
+  <table>
+    <tr>
+      <td>
+        8611 팰린드롬 숫자
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/8611">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number08600/Baekjoon8611.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>9500번대</summary>
   <table>
     <tr>
