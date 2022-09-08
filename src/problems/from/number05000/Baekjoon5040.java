@@ -92,6 +92,7 @@ public class Baekjoon5040 {
 		 * 1. 각 pair의 left, right의 X, Y 값을 찾는다.
 		 * 2. pair마다 left와 right 값이 같은 경우는 없다.(암호화할 문자를 2개 문자씩 나누기 파트의 Rule 2번 참조 - left와 right가 같지 않도록 x를 추가하고 있음)
 		 * 3. 따라서 X,Y 좌표가 같은 경우는 없다.
+		 * 4. 이에 따라 left와 right의 X가 같은 경우, Y가 같은경우, XY가 모두 다른 경우로 구분해 결과를 내면 된다.
 		 */
 		String encodedText = "";
 		for (Pair p : pairList) {
