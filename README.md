@@ -272,7 +272,6 @@
   </table>
 </details>
 <details>
-<details>
   <summary>10400번대</summary>
   <table>
     <tr>
@@ -284,6 +283,22 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number10400/Baekjoon10453.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>11200번대</summary>
+  <table>
+    <tr>
+      <td>
+        11292 키 큰 사람
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/11292">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number11200/Baekjoon11292.java">풀이</a>
       </td>
     </tr>
   </table>

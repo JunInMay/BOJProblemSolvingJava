@@ -1,4 +1,4 @@
-package problems.from.number11292;
+package problems.from.number11200;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
