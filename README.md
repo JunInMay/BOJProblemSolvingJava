@@ -372,6 +372,23 @@
   </table>
 </details>
 <details>
+  <summary>16600번대</summary>
+  <table>
+    <tr>
+      <td>
+        16652 Email Destruction
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/16652">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number16600/Baekjoon16652.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>17000번대</summary>
   <table>
     <tr>
