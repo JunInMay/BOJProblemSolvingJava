@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
-import java.util.StringTokenizer;
 
 public class Baekjoon8611 {
 	
@@ -18,7 +17,6 @@ public class Baekjoon8611 {
 			}
 		}
 		
-		
 		return result;
 	}
 
@@ -30,7 +28,6 @@ public class Baekjoon8611 {
 		boolean haveCase = false;
 		
 		for (int i=2; i<11; i++) {
-			
 			String palindrome = "";
 			BigInteger divisor = new BigInteger(Integer.toString(i));
 			BigInteger number = N;
@@ -52,5 +49,4 @@ public class Baekjoon8611 {
 		}
 		
 	}
-
 }
