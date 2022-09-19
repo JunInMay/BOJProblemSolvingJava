@@ -17,6 +17,23 @@
   </table>
 </details>
 <details>
+  <summary>1200번대</summary>
+  <table>
+    <tr>
+      <td>
+        1244 스위치 켜고 끄기
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/1244">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number01200/Baekjoon1244.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>1500번대</summary>
   <table>
     <tr>
@@ -153,6 +170,23 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number05000/Baekjoon5040.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>5600번대</summary>
+  <table>
+    <tr>
+      <td>
+        5635 생일
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/5635">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number05600/Baekjoon5635.java">풀이</a>
       </td>
     <br>
     </tr>
