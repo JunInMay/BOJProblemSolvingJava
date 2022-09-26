@@ -11,7 +11,7 @@ public class Baekjoon6593 {
 		return Integer.parseInt(s);
 	}
 	
-	// ³ô³·ÀÌ, »óÇÏÁÂ¿ì -> 6¹æÇâ
+	// ë†’ë‚®ì´, ìƒí•˜ì¢Œìš° -> 6ë°©í–¥
 	static int[] floorDX = {-1, 1, 0, 0, 0, 0};
 	static int[] rowDX = {0, 0, -1, 1, 0, 0};
 	static int[] colDX = {0, 0, 0, 0, -1, 1};
