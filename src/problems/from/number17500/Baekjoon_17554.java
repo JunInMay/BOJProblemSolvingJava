@@ -21,7 +21,7 @@ public class Baekjoon_17554 {
 				if (lights[j]) {
 					lights[j] = false;
 				} else {
-					// ²¨Áü
+					// Â²Â¨ÃÃ¼
 					lights[j] = true;
 				}
 				j += number;

@@ -70,7 +70,7 @@ public class Baekjoon_17074 {
 			}
 			
 			if (isLeftSorted && isRightSorted) {
-//				System.out.println("°ª : " + array[i].value + " left : " + array[i].left + " right : " + array[i].right);
+//				System.out.println("Â°Âª : " + array[i].value + " left : " + array[i].left + " right : " + array[i].right);
 				result++;
 			}
 		}

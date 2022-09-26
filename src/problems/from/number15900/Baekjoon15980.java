@@ -13,11 +13,11 @@ public class Baekjoon15980 {
 		return Integer.parseInt(s.toString());
 	}
 	/*
-	* ¹®Á¦¸¦ Àß¸ø ÀÐÀº°É ±ú´Ý°í ±ÞÇÏ°Ô ¼öÁ¤ÇÔ... ¸¹ÀÌ Àß¸øµÈ ÄÚµåÀÏ ¼ö ÀÖÀ½
-	* ¸í»óÀÇ °á°ú´Â °¢ ½Ã°£´ëº° Á¤½ÅÀÇ Áß½É°ªÀÇ ÃÖ´ëÄ¡
-	* 1ÃÊ¿¡ 1, 2ÃÊ¿¡ -2, 3ÃÊ¿¡ -4¸é 3ÃÊÀÇ abs(-4)°¡ ÃÖ´ëÄ¡
+	* ë¬¸ì œë¥¼ ìž˜ëª» ì½ì€ê±¸ ê¹¨ë‹«ê³  ê¸‰í•˜ê²Œ ìˆ˜ì •í•¨... ë§Žì´ ìž˜ëª»ëœ ì½”ë“œì¼ ìˆ˜ ìžˆìŒ
+	* ëª…ìƒì˜ ê²°ê³¼ëŠ” ê° ì‹œê°„ëŒ€ë³„ ì •ì‹ ì˜ ì¤‘ì‹¬ê°’ì˜ ìµœëŒ€ì¹˜
+	* 1ì´ˆì— 1, 2ì´ˆì— -2, 3ì´ˆì— -4ë©´ 3ì´ˆì˜ abs(-4)ê°€ ìµœëŒ€ì¹˜
 	* 
-	* »õ¸¦ ÀâÁö ¾Ê¾ÒÀ» ¶§ °¢ ÃÊº° ¸í»óÀÇ °á°ú¸¦ ¹Þ°í, ÀÓÀÇÀÇ »õ(exceptionalIndex·Î ÆÇº°)°¡ ÀâÇû´Ù°í °¡Á¤ÇßÀ» ¶§ °¢ ÃÊº° Á¤½ÅÀÇ Áß½ÉÀÇ °ªÀ» ±¸ÇÏ¸ç ÃÖ´ëÄ¡¸¦ ¹ÝÈ¯ÇÏ´Â ÇÔ¼ö
+	* ìƒˆë¥¼ ìž¡ì§€ ì•Šì•˜ì„ ë•Œ ê° ì´ˆë³„ ëª…ìƒì˜ ê²°ê³¼ë¥¼ ë°›ê³ , ìž„ì˜ì˜ ìƒˆ(exceptionalIndexë¡œ íŒë³„)ê°€ ìž¡í˜”ë‹¤ê³  ê°€ì •í–ˆì„ ë•Œ ê° ì´ˆë³„ ì •ì‹ ì˜ ì¤‘ì‹¬ì˜ ê°’ì„ êµ¬í•˜ë©° ìµœëŒ€ì¹˜ë¥¼ ë°˜í™˜í•˜ëŠ” í•¨ìˆ˜
 	*/
 	static int getMeditationSum(int[] meditationResults, Bird[] birds, int exceptionalIndex, int meditationTime) {
 		int meditation = 0;
@@ -43,7 +43,7 @@ public class Baekjoon15980 {
 		int meditationTime = toInt(st.nextToken());
 		Bird[] birds = new Bird[countBirds];
 		
-		// »õµé ÀÔ·Â¹Þ±â
+		// ìƒˆë“¤ ìž…ë ¥ë°›ê¸°
 		for (int i=0; i<countBirds; i++) {
 			st = new StringTokenizer(br.readLine());
 			String position = st.nextToken();
@@ -52,7 +52,7 @@ public class Baekjoon15980 {
 			birds[i] = new Bird(position, twittering);
 		}
 		
-		// °¢ ½Ã°£´ëº°·Î ¸í»ó °á°ú¸¦ ÀúÀåÇÔ
+		// ê° ì‹œê°„ëŒ€ë³„ë¡œ ëª…ìƒ ê²°ê³¼ë¥¼ ì €ìž¥í•¨
 		int[] meditationResults = new int[meditationTime]; 
 		for (int i=0; i<meditationTime; i++) {
 			int meditationValue = 0;
@@ -66,13 +66,13 @@ public class Baekjoon15980 {
 			meditationResults[i] = meditationValue;
 		}
 		
-		// »õµéÀ» ÇÏ³ª¾¿ »©º¸¸é¼­ °á°ú¸¦ sumCases¿¡ ÀúÀå sumCases[n] = birds[n]À» »°À» ¶§ÀÇ ¸í»ó °á°ú
+		// ìƒˆë“¤ì„ í•˜ë‚˜ì”© ë¹¼ë³´ë©´ì„œ ê²°ê³¼ë¥¼ sumCasesì— ì €ìž¥ sumCases[n] = birds[n]ì„ ëºì„ ë•Œì˜ ëª…ìƒ ê²°ê³¼
 		int[] sumCases = new int[countBirds];
 		for (int i=0; i<countBirds; i++) {
 			sumCases[i] = getMeditationSum(meditationResults, birds, i, meditationTime);
 		}
 		
-		// sumCases¿£ °¢ »õ¸¦ Àâ¾ÒÀ» ¶§ Á¤½ÅÀÇ Áß½ÉÀÇ Àý´ñ°ªÀÇ ÃÖ´ë°ªÀ» ÀúÀåÇÏ°í ÀÖÀ¸¹Ç·Î, sumCasesÀÇ ÃÖ¼Ò°ªÀÌ µÇ°ÔÇÏ´Â »õ¿Í ±× ¶§ÀÇ Á¤½ÅÀÇ Áß½ÉÀÇ Àý´ñ°ªÀÇ ÃÖ´ë°ªÀ» Ãâ·ÂÇÔ
+		// sumCasesì—” ê° ìƒˆë¥¼ ìž¡ì•˜ì„ ë•Œ ì •ì‹ ì˜ ì¤‘ì‹¬ì˜ ì ˆëŒ“ê°’ì˜ ìµœëŒ€ê°’ì„ ì €ìž¥í•˜ê³  ìžˆìœ¼ë¯€ë¡œ, sumCasesì˜ ìµœì†Œê°’ì´ ë˜ê²Œí•˜ëŠ” ìƒˆì™€ ê·¸ ë•Œì˜ ì •ì‹ ì˜ ì¤‘ì‹¬ì˜ ì ˆëŒ“ê°’ì˜ ìµœëŒ€ê°’ì„ ì¶œë ¥í•¨
 		int result = Integer.MAX_VALUE;
 		int minIndex = 0;
 		for (int i=0; i<countBirds; i++) {

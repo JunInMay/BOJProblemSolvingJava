@@ -35,7 +35,7 @@ public class Baekjoon5839 {
 		}
 		
 		int now = 0;
-		char read = 'n'; // ¾Æ¹«µµ ¸®µåÇÏ°í ÀÖÁö ¾ÊÀ½
+		char read = 'n'; // ì•„ë¬´ë„ ë¦¬ë“œí•˜ê³  ìˆì§€ ì•ŠìŒ
 		Segment bessie = new Segment();
 		Segment elsie = new Segment();
 		int bessieIdx = 0;

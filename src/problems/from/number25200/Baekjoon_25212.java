@@ -1,5 +1,3 @@
-// BOJ 25212 조각 케이크
-
 package problems.from.number25200;
 
 import java.io.BufferedReader;

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 
-// ¿ì¼±¼øÀ§ Å¥·Î Ç®¸é ´õ ºü¸¥µ¥.. ¤Ğ¤Ğ
+// ìš°ì„ ìˆœìœ„ íë¡œ í’€ë©´ ë” ë¹ ë¥¸ë°.. ã… ã… 
 public class Baekjoon_15903 {
 	static long[] cards;
 	
@@ -45,19 +45,13 @@ public class Baekjoon_15903 {
 /*
 4 1
 4 2 3 1 
-
 4 2
 4 2 3 1 
-
 4 3
 4 2 3 1
-
-
 3 2
 3 2 6
-
 3 3
 3 2 6
  *
  */
-
