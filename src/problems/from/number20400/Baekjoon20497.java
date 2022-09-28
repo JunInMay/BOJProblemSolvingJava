@@ -24,7 +24,7 @@ public class Baekjoon20497 {
 		return true;
 	}
 	/*
-	 * 주방 격자의 섬의 개수를 확인(격자를 모두 탐색할때 몇번의 bfs/dfs를 돌아야 하는지 개수를 확인)
+	 * 주방 격자의 섬의 개수를 확인(격자를 모두 탐색하고자 할 때 몇번의 bfs/dfs를 돌아야 하는지 개수를 확인)
 	 */
 	static int countIsland(char[][] kitchen) {
 		int result = 0;
