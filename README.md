@@ -61,6 +61,23 @@
   </table>
 </details>
 <details>
+  <summary>1900번대</summary>
+  <table>
+    <tr>
+      <td>
+        1907 탄소 화합물
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/1907">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number01900/Baekjoon1907.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>2500번대</summary>
   <table>
     <tr>
@@ -120,6 +137,22 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number02900/Baekjoon_2992.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>3100번대</summary>
+  <table>
+    <tr>
+      <td>
+        3185 kviz
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/3185">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number03100/Baekjoon3185.java">풀이</a>
       </td>
     </tr>
   </table>
@@ -190,6 +223,18 @@
       </td>
     <br>
     </tr>
+    <tr>
+      <td>
+        5636 소수 부분 문자열
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/5636">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number05600/Baekjoon5636.java">풀이</a>
+      </td>
+    <br>
+    </tr>
   </table>
 </details>
 <details>
@@ -221,6 +266,17 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number06500/Baekjoon_6571.java">풀이</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        6593 상범 빌딩
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/6593">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number06500/Baekjoon6593.java">풀이</a>
       </td>
     </tr>
   </table>
@@ -269,6 +325,22 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number08600/Baekjoon8611.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>8700번대</summary>
+  <table>
+    <tr>
+      <td>
+        8774 Kurs
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/8774">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number08700/Baekjoon8774.java">풀이</a>
       </td>
     </tr>
   </table>
@@ -352,6 +424,18 @@
       </td>
     <br>
     </tr>
+    <tr>
+      <td>
+        12083 Bad Horse (Small2)
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/12083">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number12000/Baekjoon12083.java">풀이</a>
+      </td>
+    <br>
+    </tr>
   </table>
 </details>
 <details>
@@ -366,6 +450,23 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number12100/Baekjoon_12155.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>12700번대</summary>
+  <table>
+    <tr>
+      <td>
+        12761 돌다리
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/12761">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number12700/Baekjoon12761.java">풀이</a>
       </td>
     <br>
     </tr>
@@ -400,6 +501,18 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number15900/Baekjoon_15903.java">풀이</a>
+      </td>
+    <br>
+    </tr>
+    <tr>
+      <td>
+        15980 명상 방해꾼
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/15980">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number15900/Baekjoon15980.java">풀이</a>
       </td>
     <br>
     </tr>
@@ -527,6 +640,22 @@
   </table>
 </details>
 <details>
+  <summary>20400번대</summary>
+  <table>
+    <tr>
+      <td>
+        20497 Bessie's Revolution
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/20497">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number20400/Baekjoon20497.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>21800번대</summary>
   <table>
     <tr>
@@ -543,6 +672,22 @@
   </table>
 </details>
 <details>
+  <summary>22800번대</summary>
+  <table>
+    <tr>
+      <td>
+        22820 Get a Rectangular Field
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/22820">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number22800/Baekjoon22820.java">풀이</a>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
   <summary>23700번대</summary>
   <table>
     <tr>
@@ -554,6 +699,17 @@
       </td>
       <td>
         <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number23700/Baekjoon23731.java">풀이</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        23782 Burizon Fort
+      </td>
+      <td>
+        <a href="https://www.acmicpc.net/problem/23782">문제 링크</a>
+      </td>
+      <td>
+        <a href="https://github.com/JunInMay/BOJProblemSolvingJava/blob/main/src/problems/from/number23700/Baekjoon23782.java">풀이</a>
       </td>
     </tr>
   </table>
