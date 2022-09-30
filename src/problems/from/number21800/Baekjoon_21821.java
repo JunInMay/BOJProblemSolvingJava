@@ -52,20 +52,20 @@ public class Baekjoon_21821 {
 					
 					int result = name.compareTo(before);
 					if (result > 0 || result == 0) {
-						System.out.println("¿©±â·Î ¿Í¾ßÁö ³×ÀÓ¾Æ.. : " + name);
+						System.out.println("ì—¬ê¸°ë¡œ ì™€ì•¼ì§€ ë„¤ì„ì•„.. : " + name);
 					} else {
-						System.out.println("¿©±ä ¿Ö¿Ã¶ó? ³×ÀÓ¾Æ? : " + name + " ºñÆ÷¾î : " + before + " ¹¹Áö : " + name.compareTo(before));
+						System.out.println("ì—¬ê¸´ ì™œì˜¬ë¼? ë„¤ì„ì•„? : " + name + " ë¹„í¬ì–´ : " + before + " ë­ì§€ : " + name.compareTo(before));
 						level++;
 					}
-					System.out.println("ºñ±³ÇÒ name : " + name + " before : " + before + "°á°ú°ª  : " + name.compareTo(before) + " now : " + paper);
+					System.out.println("ë¹„êµí•  name : " + name + " before : " + before + "ê²°ê³¼ê°’  : " + name.compareTo(before) + " now : " + paper);
 					points[nameIndex.get(name)] += level;
-					System.out.println("°ú¿¬ ³×ÀÓ°ªÀº? : " + points[nameIndex.get(name)]);
+					System.out.println("ê³¼ì—° ë„¤ì„ê°’ì€? : " + points[nameIndex.get(name)]);
 					before = name;
 				}
 			}
 		}
 		for (int point : points) {
-			System.out.println("Æ÷ÀÎÆ® : " + point);
+			System.out.println("í¬ì¸íŠ¸ : " + point);
 		}
 		
 		
@@ -100,7 +100,6 @@ dean elsi mild
 elsie mildred dean
 elsie mildred dean
 elsie dean mildred
-
 2 3
 elsie mildred ekan
 elsie mildred ekan

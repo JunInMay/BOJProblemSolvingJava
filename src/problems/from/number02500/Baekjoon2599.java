@@ -6,14 +6,14 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /*
- * Ç®ÀÌ º¸°í ÇØ°áÇÔ
- * [Âü°íÇÑ Ç®ÀÌ]
+ * í’€ì´ ë³´ê³  í•´ê²°í•¨
+ * [ì°¸ê³ í•œ í’€ì´]
  * https://settembre.tistory.com/73
  * 
- * AÃÊ±³ ³²À» aM, AÃÊ±³ ¿©¸¦ aG¿Í °°Àº ½ÄÀ¸·Î Ç¥±âÇÏ°í,
- * AÃÊ±³ ³²ÀÌ BÃÊ±³ ¿©¿Í Â¦Áö¾îÁö´Â °æ¿ì¸¦ aB¶ó ÇÏ°í,
- * AÃÊ±³ ³²ÀÌ CÃÊ±³ ¿©¿Í Â¦Áö¾îÁö´Â °æ¿ì¸¦ aC¿Í °°Àº ½ÄÀ¸·Î Ç¥±âÇÑ´Ù¸é
- * ´ÙÀ½ÀÌ ¼º¸³ÇÑ´Ù.
+ * Aì´ˆêµ ë‚¨ì„ aM, Aì´ˆêµ ì—¬ë¥¼ aGì™€ ê°™ì€ ì‹ìœ¼ë¡œ í‘œê¸°í•˜ê³ ,
+ * Aì´ˆêµ ë‚¨ì´ Bì´ˆêµ ì—¬ì™€ ì§ì§€ì–´ì§€ëŠ” ê²½ìš°ë¥¼ aBë¼ í•˜ê³ ,
+ * Aì´ˆêµ ë‚¨ì´ Cì´ˆêµ ì—¬ì™€ ì§ì§€ì–´ì§€ëŠ” ê²½ìš°ë¥¼ aCì™€ ê°™ì€ ì‹ìœ¼ë¡œ í‘œê¸°í•œë‹¤ë©´
+ * ë‹¤ìŒì´ ì„±ë¦½í•œë‹¤.
  * 
  * aM = aB + aC
  * aB = ?
@@ -23,7 +23,7 @@ import java.util.StringTokenizer;
  * cA = aG - bA
  * cB = cM - cA
  * 
- * µû¶ó¼­ aB¸¸ °áÁ¤ÇØÁÖ¸é ¹®Á¦°¡ ÇØ°áµÊ.
+ * ë”°ë¼ì„œ aBë§Œ ê²°ì •í•´ì£¼ë©´ ë¬¸ì œê°€ í•´ê²°ë¨.
  */
 public class Baekjoon2599 {
 	public static int toInt(String s) {

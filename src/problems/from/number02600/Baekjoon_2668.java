@@ -31,7 +31,7 @@ public class Baekjoon_2668 {
 		}
 		
 		while (!valueSet.containsAll(keySet)) {
-			// keySetÀÌ valueSetÀÌ µÇ´Â °ÍÀÌ Áß¿äÆ÷ÀÎÆ®
+			// keySetì´ valueSetì´ ë˜ëŠ” ê²ƒì´ ì¤‘ìš”í¬ì¸íŠ¸
 			keySet = new HashSet<>(valueSet);
 			valueSet.clear();
 			Iterator<Integer> keysetIterator = keySet.iterator();

@@ -30,7 +30,7 @@ public class Baekjoon24912 {
 			int rightIdx = i+1;
 			
 			if (cards[i] != 0) {
-				// ÀÌ¹Ì Ä¥ÇØÁ®ÀÖ´Â °æ¿ì ÁÂ, ¿ìÃø ÆÇº°ÇÏ°í °°Àº »öÀÇ Ä«µå°¡ ±ÙÃ³¿¡ ÀÖ´Ù¸é Å½»ö Á¾·á
+				// ì´ë¯¸ ì¹ í•´ì ¸ìˆëŠ” ê²½ìš° ì¢Œ, ìš°ì¸¡ íŒë³„í•˜ê³  ê°™ì€ ìƒ‰ì˜ ì¹´ë“œê°€ ê·¼ì²˜ì— ìˆë‹¤ë©´ íƒìƒ‰ ì¢…ë£Œ
 				if ((!(leftIdx < 0) && cards[leftIdx] == cards[i]) || (!(rightIdx >= cardCount) && cards[rightIdx] == cards[i])) {
 					isColorable = false;
 					break;
@@ -38,7 +38,7 @@ public class Baekjoon24912 {
 			} else {
 				boolean[] candidates = new boolean[4];
 				
-				// ÁÂ, ¿ìÃø ÆÇº°
+				// ì¢Œ, ìš°ì¸¡ íŒë³„
 				if (!(leftIdx < 0)) {
 					candidates[cards[leftIdx]] = true;
 				}

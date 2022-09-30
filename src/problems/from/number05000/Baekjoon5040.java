@@ -11,18 +11,18 @@ public class Baekjoon5040 {
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(isr);
 		
-		char[] keyPhrase = br.readLine().replaceAll("\\s", "").toCharArray(); // ¾ÏÈ£Å°
-		char[] text = br.readLine().replaceAll("\\s", "").toCharArray(); // ¾ÏÈ£È­ÇÒ ¹®ÀÚ
-		boolean[] isUsed = new boolean[26]; // 26ÀÚ ¾ËÆÄºª »ç¿ë ¿©ºÎ
-		isUsed[16] = true; // q´Â »ç¿ëÇÏÁö ¾ÊÀ½
-		char[] inputAlphabet = new char[25]; // 5x5 ¹è¿­¿¡ ÀÔ·ÂÇÒ ¾ËÆÄºª 25ÀÚ
+		char[] keyPhrase = br.readLine().replaceAll("\\s", "").toCharArray(); // ì•”í˜¸í‚¤
+		char[] text = br.readLine().replaceAll("\\s", "").toCharArray(); // ì•”í˜¸í™”í•  ë¬¸ìž
+		boolean[] isUsed = new boolean[26]; // 26ìž ì•ŒíŒŒë²³ ì‚¬ìš© ì—¬ë¶€
+		isUsed[16] = true; // qëŠ” ì‚¬ìš©í•˜ì§€ ì•ŠìŒ
+		char[] inputAlphabet = new char[25]; // 5x5 ë°°ì—´ì— ìž…ë ¥í•  ì•ŒíŒŒë²³ 25ìž
 		
 		/*
-		 * 5*5 Å×ÀÌºí Â¥±â
+		 * 5*5 í…Œì´ë¸” ì§œê¸°
 		 * [Solution]
-		 * 1. keyPhrase¿¡¼­ Áßº¹ÇÏÁö ¾Ê´Â ¾ËÆÄºªÀ» inputAlphabet¿¡ ³Ö´Â´Ù.
-		 * 2. ³²Àº ¾ËÆÄºª 26ÀÚ(q»©¸é ½ÇÁ¦·Ð 25ÀÚ) Áß¿¡¼­ ¾È¾²ÀÌ´Â °ÍµéÀ» ¾ËÆÄºª ¼øÀ¸·Î inputAlphabet¿¡ ³Ö´Â´Ù.
-		 * 3. 5*5 Å×ÀÌºí¿¡ inputAlphabetÀ» Â÷·Ê·Î ³Ö´Â´Ù.
+		 * 1. keyPhraseì—ì„œ ì¤‘ë³µí•˜ì§€ ì•ŠëŠ” ì•ŒíŒŒë²³ì„ inputAlphabetì— ë„£ëŠ”ë‹¤.
+		 * 2. ë‚¨ì€ ì•ŒíŒŒë²³ 26ìž(që¹¼ë©´ ì‹¤ì œë¡  25ìž) ì¤‘ì—ì„œ ì•ˆì“°ì´ëŠ” ê²ƒë“¤ì„ ì•ŒíŒŒë²³ ìˆœìœ¼ë¡œ inputAlphabetì— ë„£ëŠ”ë‹¤.
+		 * 3. 5*5 í…Œì´ë¸”ì— inputAlphabetì„ ì°¨ë¡€ë¡œ ë„£ëŠ”ë‹¤.
 		 */
 		int inputAlphabetIndex = 0;
 		int keyPhraseIndex = 0;
@@ -56,15 +56,15 @@ public class Baekjoon5040 {
 			}
 		}
 		/*
-		 * ¾ÏÈ£È­ÇÒ ¹®ÀÚ¸¦ 2°³ ¹®ÀÚ¾¿ ³ª´©±â
+		 * ì•”í˜¸í™”í•  ë¬¸ìžë¥¼ 2ê°œ ë¬¸ìžì”© ë‚˜ëˆ„ê¸°
 		 * [Rule]
-		 * 1. ¹®ÀÚ¸¦ 2°³¸¶´Ù ²÷´Â´Ù.
-		 * 2. ²÷¾úÀ» ¶§ µ¿ÀÏÇÑ ¹®ÀÚ°¡ ¹Ýº¹µÇ°Å³ª, ¹®ÀÚ°¡ 1°³¹Û¿¡ ¾È³²¾ÒÀ» °æ¿ì Ã¹ ¹®ÀÚ¿¡ x¸¦ ºÙÀÎ´Ù.
+		 * 1. ë¬¸ìžë¥¼ 2ê°œë§ˆë‹¤ ëŠëŠ”ë‹¤.
+		 * 2. ëŠì—ˆì„ ë•Œ ë™ì¼í•œ ë¬¸ìžê°€ ë°˜ë³µë˜ê±°ë‚˜, ë¬¸ìžê°€ 1ê°œë°–ì— ì•ˆë‚¨ì•˜ì„ ê²½ìš° ì²« ë¬¸ìžì— xë¥¼ ë¶™ì¸ë‹¤.
 		 * [Solution]
-		 * 1. µÎ °³ÀÇ ¹®ÀÚ¿­À» ÀúÀåÇÏ´Â Pair ¶ó´Â °´Ã¼¸¦ È°¿ëÇÑ´Ù.
-		 * 2. ¾ÏÈ£È­ÇÒ ÅØ½ºÆ®¸¦ ¹®ÀÚ¿­ 1°³¸¶´Ù Ã¼Å©ÇÑ´Ù. ±×·¯±â À§ÇØ ÀÎµ¦½º(¿©±â¼­ idx º¯¼ö)¸¦ »ç¿ëÇÑ´Ù.
-		 * 3. Rule 2¹ø¿¡ ÇØ´çÇÏÁö ¾ÊÀ» °æ¿ì idx¸¦ 2È¸ ´Ã¸°´Ù. 2°³ÀÇ ¹®ÀÚ¿­À» ¹­¾ú±â ¶§¹®ÀÌ´Ù.
-		 * 4. Rule 2¹ø¿¡ ÇØ´çÇÒ °æ¿ì x¸¦ ºÙÀÌ°í, idx´Â 1È¸¸¸ ´Ã¸°´Ù. ´ÙÀ½ ¹®ÀÚ¿­À» ¹­Áö ¾Ê°í x¸¦ Á÷Á¢ Ãß°¡ÇØÁÖ±â ¶§¹®ÀÌ´Ù.
+		 * 1. ë‘ ê°œì˜ ë¬¸ìžì—´ì„ ì €ìž¥í•˜ëŠ” Pair ë¼ëŠ” ê°ì²´ë¥¼ í™œìš©í•œë‹¤.
+		 * 2. ì•”í˜¸í™”í•  í…ìŠ¤íŠ¸ë¥¼ ë¬¸ìžì—´ 1ê°œë§ˆë‹¤ ì²´í¬í•œë‹¤. ê·¸ëŸ¬ê¸° ìœ„í•´ ì¸ë±ìŠ¤(ì—¬ê¸°ì„œ idx ë³€ìˆ˜)ë¥¼ ì‚¬ìš©í•œë‹¤.
+		 * 3. Rule 2ë²ˆì— í•´ë‹¹í•˜ì§€ ì•Šì„ ê²½ìš° idxë¥¼ 2íšŒ ëŠ˜ë¦°ë‹¤. 2ê°œì˜ ë¬¸ìžì—´ì„ ë¬¶ì—ˆê¸° ë•Œë¬¸ì´ë‹¤.
+		 * 4. Rule 2ë²ˆì— í•´ë‹¹í•  ê²½ìš° xë¥¼ ë¶™ì´ê³ , idxëŠ” 1íšŒë§Œ ëŠ˜ë¦°ë‹¤. ë‹¤ìŒ ë¬¸ìžì—´ì„ ë¬¶ì§€ ì•Šê³  xë¥¼ ì§ì ‘ ì¶”ê°€í•´ì£¼ê¸° ë•Œë¬¸ì´ë‹¤.
 		 */
 		ArrayList<Pair> pairList = new ArrayList<>();
 		int idx = 0;
@@ -87,12 +87,12 @@ public class Baekjoon5040 {
 		}
 		
 		/*
-		 * Å×ÀÌºíÀ» ÀÌ¿ëÇØ¼­ ¾ÏÈ£È­ÇÏ±â
+		 * í…Œì´ë¸”ì„ ì´ìš©í•´ì„œ ì•”í˜¸í™”í•˜ê¸°
 		 * [Solution]
-		 * 1. °¢ pairÀÇ left, rightÀÇ X, Y °ªÀ» Ã£´Â´Ù.
-		 * 2. pair¸¶´Ù left¿Í right °ªÀÌ °°Àº °æ¿ì´Â ¾ø´Ù.(¾ÏÈ£È­ÇÒ ¹®ÀÚ¸¦ 2°³ ¹®ÀÚ¾¿ ³ª´©±â ÆÄÆ®ÀÇ Rule 2¹ø ÂüÁ¶ - left¿Í right°¡ °°Áö ¾Êµµ·Ï x¸¦ Ãß°¡ÇÏ°í ÀÖÀ½)
-		 * 3. µû¶ó¼­ X,Y ÁÂÇ¥°¡ °°Àº °æ¿ì´Â ¾ø´Ù.
-		 * 4. ÀÌ¿¡ µû¶ó left¿Í rightÀÇ X°¡ °°Àº °æ¿ì, Y°¡ °°Àº°æ¿ì, XY°¡ ¸ðµÎ ´Ù¸¥ °æ¿ì·Î ±¸ºÐÇØ °á°ú¸¦ ³»¸é µÈ´Ù.
+		 * 1. ê° pairì˜ left, rightì˜ X, Y ê°’ì„ ì°¾ëŠ”ë‹¤.
+		 * 2. pairë§ˆë‹¤ leftì™€ right ê°’ì´ ê°™ì€ ê²½ìš°ëŠ” ì—†ë‹¤.(ì•”í˜¸í™”í•  ë¬¸ìžë¥¼ 2ê°œ ë¬¸ìžì”© ë‚˜ëˆ„ê¸° íŒŒíŠ¸ì˜ Rule 2ë²ˆ ì°¸ì¡° - leftì™€ rightê°€ ê°™ì§€ ì•Šë„ë¡ xë¥¼ ì¶”ê°€í•˜ê³  ìžˆìŒ)
+		 * 3. ë”°ë¼ì„œ X,Y ì¢Œí‘œê°€ ê°™ì€ ê²½ìš°ëŠ” ì—†ë‹¤.
+		 * 4. ì´ì— ë”°ë¼ leftì™€ rightì˜ Xê°€ ê°™ì€ ê²½ìš°, Yê°€ ê°™ì€ê²½ìš°, XYê°€ ëª¨ë‘ ë‹¤ë¥¸ ê²½ìš°ë¡œ êµ¬ë¶„í•´ ê²°ê³¼ë¥¼ ë‚´ë©´ ëœë‹¤.
 		 */
 		String encodedText = "";
 		for (Pair p : pairList) {

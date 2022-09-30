@@ -39,9 +39,9 @@ public class Baekjoon_15889 {
 		}
 		
 		if (soldiersPosition[soldiers-1] <= maxRange) {
-			System.out.println("±Çº´Àå´Ô, Áß´ëÀå´ÔÀÌ Ã£À¸½Ê´Ï´Ù");
+			System.out.println("ê¶Œë³‘ìž¥ë‹˜, ì¤‘ëŒ€ìž¥ë‹˜ì´ ì°¾ìœ¼ì‹­ë‹ˆë‹¤");
 		} else {
-			System.out.println("¾ö¸¶ ³ª Àü¿ª ´Ê¾îÁú °Í °°¾Æ");
+			System.out.println("ì—„ë§ˆ ë‚˜ ì „ì—­ ëŠ¦ì–´ì§ˆ ê²ƒ ê°™ì•„");
 		}
 	}
 }
@@ -49,14 +49,11 @@ public class Baekjoon_15889 {
 5
 0 3 8 15 100
 3 5 7 100
-
 5
 0 3 3 3 100
 3 5 6 10
-
 1
 0
-
 2
 0 100
 100
