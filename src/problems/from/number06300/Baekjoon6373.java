@@ -48,8 +48,6 @@ public class Baekjoon6373 {
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(isr);
 		
-		isCyclic("123", "312");
-		
 		String input = "";
 		while ((input = br.readLine()) != null) {
 			boolean isCyclic = false;
