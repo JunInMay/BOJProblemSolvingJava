@@ -1,4 +1,4 @@
-package problems.from.number10826;
+package problems.from.number10800;
 
 import java.io.BufferedReader;
 import java.io.IOException;
