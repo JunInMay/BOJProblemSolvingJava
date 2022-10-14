@@ -21,16 +21,9 @@ public class Baekjoon9657 {
 		Boolean[] initialGameResult = {true, false, true, true};
 		List<Boolean> temporaryList = Arrays.asList(initialGameResult);
 		ArrayList<Boolean> gameResults = new ArrayList<>(temporaryList);
-		System.out.println(false || false);
 		for (int i=4; i<number+1; i++) {
-			Boolean nextResult = !(gameResults.get(i-1)) || !(gameResults.get(i-3)) || !(gameResults.get(i-4));
-			if (i == 7) {
-				System.out.println((gameResults.get(i-1)));
-				System.out.println((gameResults.get(i-3)));
-				System.out.println((gameResults.get(i-4)));
-			}
-			System.out.println((i+1)+ " : " + nextResult);
-			gameResults.add(!nextResult);
+			Boolean nextResult = !(gameResults.get(i-1)) | !(gameResults.get(i-3)) | !(gameResults.get(i-4));
+			gameResults.add(nextResult);
 		}
 		String winner = "CY";
 		if (gameResults.get(number-1)) {
