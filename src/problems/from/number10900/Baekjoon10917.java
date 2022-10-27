@@ -72,3 +72,11 @@ class Node {
 		this.times = times;
 	}
 }
+
+
+/*
+2 1
+1 2
+
+
+*/
