@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 
-public class Baekjoon9421Failed {
+public class Baekjoon9421 {
 	static boolean[] isHappyNumbers;
 	static int[] digitSquareNumbers;
 	
@@ -29,8 +29,6 @@ public class Baekjoon9421Failed {
 		visited[number] = true;
 		if (isHappyNumbers[number]) {
 			return true;
-		} else if (number == 1) {
-			return true;
 		} else {
 			if (visited[digitSquareNumbers[number]]) {
 				return false;
@@ -48,6 +46,7 @@ public class Baekjoon9421Failed {
 		
 		digitSquareNumbers = new int[487];
 		isHappyNumbers = new boolean[487];
+		isHappyNumbers[1] = true;
 		
 		for (int i=0; i<487; i++) {
 			digitSquareNumbers[i] = getDigitSquareNumber(i);
@@ -60,11 +59,10 @@ public class Baekjoon9421Failed {
 		
 		boolean[] sieve = new boolean[limitNumber+1];
 		Arrays.fill(sieve, 2, limitNumber+1, true);
-		for (int i=3; i<=limitNumber; i++) {
-			for (int j=2; j<=Math.sqrt(i); j++) {
-				if ((double)i%j == 0) {
-					sieve[i] = false;
-					break;
+		for (int i=2; i<=limitNumber; i++) {
+			if (sieve[i]) {
+				for (int j=i*2; j<=limitNumber; j+=i) {
+					sieve[j] = false;
 				}
 			}
 		}
@@ -79,5 +77,4 @@ public class Baekjoon9421Failed {
 		}
 		bw.close();
 	}
-
 }
