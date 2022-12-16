@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
+// 정답도 잘 나오고 잘 풀었지만, 더 나은 풀이를 위해 재도전 해보기?
 public class Baekjoon24524 {
 
 	public static void main(String[] args) throws IOException {
