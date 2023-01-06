@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Baekjoon5890 {
-	static int fieldSize = 5;
+	static int fieldSize = 1001;
 	static int[] dY = {-1, 1, 0, 0};
 	static int[] dX = {0, 0, -1, 1};
 	
@@ -34,8 +34,8 @@ public class Baekjoon5890 {
 		int[][] costs = new int[fieldSize][fieldSize];
 		while (baleCount-- > 0) {
 			st = new StringTokenizer(br.readLine());
-			int baleY = Integer.parseInt(st.nextToken()) - 1;
-			int baleX = Integer.parseInt(st.nextToken()) - 1;
+			int baleY = Integer.parseInt(st.nextToken())-1;
+			int baleX = Integer.parseInt(st.nextToken())-1;
 			
 			board[baleY][baleX] = 1;
 		}
@@ -57,9 +57,10 @@ public class Baekjoon5890 {
 				int nextX = now.x + dX[i];
 				
 				if (nextY < 0 || nextY >= fieldSize || nextX < 0 || nextX >= fieldSize) {
-					continue;
+					System.out.println(now.cost);
+					return;
 				}
-				int cost = board[nextY][nextX];
+				int cost = 0 + board[nextY][nextX];
 				int nextCost = now.cost + cost;
 				
 				if (costs[nextY][nextX] <= nextCost) {
@@ -75,11 +76,6 @@ public class Baekjoon5890 {
 				}
 			}
 		}
-				for (int i=0; i<fieldSize; i++) {
-			System.out.println(Arrays.toString(costs[i]));
-		}
-
-		System.out.println(costs[0][0]);
 	}
 
 }
@@ -94,12 +90,26 @@ public class Baekjoon5890 {
 5 4
 6 4
 
-5 2 1
+10 3 3
+1 2
+1 3
+1 4
+1 5
+2 2
+3 2
+3 4
+4 2
+4 3
+4 4
+
+7 2 3
 1 1
 1 2
 1 3
 1 4
 1 5
+2 1
+2 5
 
 
 
