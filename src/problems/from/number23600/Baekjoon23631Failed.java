@@ -14,6 +14,7 @@ public class Baekjoon23631Failed {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int caseCount = Integer.parseInt(br.readLine());
 		
+		StringBuilder sb = new StringBuilder();
 		while (caseCount-- > 0) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			int goal = Integer.parseInt(st.nextToken()) - 1;
@@ -21,7 +22,7 @@ public class Baekjoon23631Failed {
 			
 			int maxSequenceIndex = (int) Math.sqrt(20000000);
 			if (goal <= commonDifference) {
-				maxSequenceIndex = 1;
+				maxSequenceIndex = 2;
 			}
 			int minSequenceIndex = 0;
 			
@@ -45,8 +46,10 @@ public class Baekjoon23631Failed {
 			if (maxSequenceIndex % 2 == 0) {
 				direction = "L";
 			}
-			System.out.println(String.format("%d %s", start + numberLeft, direction));
+			sb.append(String.format("%d %s", start + numberLeft, direction));
+			sb.append('\n');
 		}
+		System.out.println(sb);
 
 	}
 
