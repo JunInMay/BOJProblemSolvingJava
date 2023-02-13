@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Baekjoon13171 {
-	static long divisor = (long) 1E9+7;
+	static long divisor = (long) 1E9+7;//1,000,000,007
 	
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
