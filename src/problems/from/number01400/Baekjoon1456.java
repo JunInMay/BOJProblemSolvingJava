@@ -82,6 +82,8 @@ public class Baekjoon1456 {
 		System.out.println(count);
 	}
 }
+	
+
 
 /*
 100000000000000 100000000000000
