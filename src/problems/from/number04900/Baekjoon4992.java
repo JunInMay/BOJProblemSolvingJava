@@ -26,7 +26,6 @@ public class Baekjoon4992 {
 				int from = Integer.parseInt(st.nextToken());
 				int amount = Integer.parseInt(st.nextToken());
 				hanafuda.cut(from, amount);
-				System.out.println(hanafuda.print());
 			}
 			System.out.println(hanafuda.top.value);
 		}
