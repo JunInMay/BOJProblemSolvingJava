@@ -61,6 +61,7 @@ public class Baekjoon9351Failed {
 					}
 				}
 			}
+			
 			sb.append(String.format("Case #%d:\n", caseNumber));
 			if (maxPalindromeSize > 1) {
 				for (int i=0; i<maxPalindromeCount; i++) {
