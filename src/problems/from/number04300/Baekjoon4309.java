@@ -24,7 +24,7 @@ public class Baekjoon4309 {
 				for (j = length - i - (extra == 0 ? 1 : 0); j > i && chars[i] != chars[j]; j--) {};
 				
 				if (i == j) {
-					if (extra != 0 || length % 2 == 1) {
+					if (extra != 0 || length % 2 == 0) {
 						isImpossible = true;
 						break;
 					}
